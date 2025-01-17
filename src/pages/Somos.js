@@ -24,16 +24,15 @@ const integrantes = [
         imagen: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7.png' // Imagen de Squirtle
     },
     {
-        nombre: 'Sarly Samira Naranjo Tello',
-        descripcion: 'Desarrolladora creativa con enfoque en experiencia de usuario.',
-        imagen: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png' // Imagen de Eevee
-    },
-    {
         nombre: 'Raul Daniel Ararat León',
         descripcion: 'Desarrollador innovador enfocado en crear soluciones eficientes.',
         imagen: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6.png' // Imagen de Charizard
+    },
+    {
+        nombre: 'Sarly Samira Naranjo Tello',
+        descripcion: 'Desarrolladora creativa con enfoque en experiencia de usuario.',
+        imagen: 'https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/133.png' // Imagen de Eevee
     }
-    
 ];
 
 const Somos = () => (
