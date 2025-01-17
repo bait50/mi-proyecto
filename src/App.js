@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import Main from './pages/Main';
 import Products from './pages/Products';
 import Somos from './pages/Somos';
 import Profile from './pages/Profile';
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <main className="container mt-4">
         <Routes>
+          <Route path="/" element={<Main />} />
           <Route path="/products" element={<Products />} />
           <Route path="/somos" element={<Somos />} />
           <Route path="/profile" element={<Profile />} />
